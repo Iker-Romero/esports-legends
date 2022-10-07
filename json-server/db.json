@@ -1,0 +1,44 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "nickname": "Mixwell",
+      "name": "Óscar Cañellas Colocho",
+      "nationality": "🇪🇸",
+      "birthday": "10-10-1995",
+      "lastGame": "Valorant",
+      "status": "inactive",
+      "teams": ["G2"]
+    },
+    {
+      "id": 2,
+      "nickname": "pAura",
+      "name": "Melih Karaduran",
+      "nationality": "🇹🇷",
+      "birthday": "27-10-1997",
+      "lastGame": "Valorant",
+      "status": "active",
+      "teams": ["Team Heretics", "SuperMassive Blaze", "BBL Esports"]
+    },
+    {
+      "id": 3,
+      "nickname": "Nukkye",
+      "name": "Žygimantas Chmieliauskas",
+      "nationality": "🇱🇹",
+      "birthday": "5-11-1997",
+      "lastGame": "Valorant",
+      "status": "inactive",
+      "teams": ["Team Heretics", "G2"]
+    },
+    {
+      "id": 4,
+      "nickname": "keznideuS",
+      "name": "Angelo Mori",
+      "nationality": "🇨🇱",
+      "birthday": "14-08-2001",
+      "lastGame": "Valorant",
+      "status": "active",
+      "teams": ["Australs", "Wygers Argentina", "KRU"]
+    }
+  ]
+}
