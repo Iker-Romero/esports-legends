@@ -7,7 +7,7 @@
       "nationality": "🇪🇸",
       "birthday": "10-10-1995",
       "lastGame": "Valorant",
-      "status": "inactive",
+      "status": "Inactive",
       "teams": ["G2"]
     },
     {
@@ -17,7 +17,7 @@
       "nationality": "🇹🇷",
       "birthday": "27-10-1997",
       "lastGame": "Valorant",
-      "status": "active",
+      "status": "Active",
       "teams": ["Team Heretics", "SuperMassive Blaze", "BBL Esports"]
     },
     {
@@ -27,7 +27,7 @@
       "nationality": "🇱🇹",
       "birthday": "5-11-1997",
       "lastGame": "Valorant",
-      "status": "inactive",
+      "status": "Inactive",
       "teams": ["Team Heretics", "G2"]
     },
     {
@@ -37,7 +37,7 @@
       "nationality": "🇨🇱",
       "birthday": "14-08-2001",
       "lastGame": "Valorant",
-      "status": "active",
+      "status": "Active",
       "teams": ["Australs", "Wygers Argentina", "KRU"]
     }
   ]
