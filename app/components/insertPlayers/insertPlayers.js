@@ -1,8 +1,10 @@
 import { getPlayers } from "../getPlayers/getPlayers";
 
+const div = document.createElement("div");
+div.classList.add("players-container");
+
 export const insertPlayers = async () => {
   try {
-    const div = document.createElement("div");
     const players = await getPlayers("http://localhost:3000/players");
     for (const player of players) {
       let teamsString = "Teams: ";
@@ -10,15 +12,19 @@ export const insertPlayers = async () => {
         teamsString += `➡️ ${team}`;
       }
       div.innerHTML += `
-          <figure>
+          <figure class="player">
               <figcaption>${player.nickname}</figcaption>
-              <img src="" alt="" />
-              <p>${player.name}</p>
-              <p>${player.nationality}</p>
-              <p>${player.birthday}</p>
-              <p>${player.lastGame}</p>
-              <p>${player.status}</p>
-              <p>${teamsString}</p>
+              <div class="player-image-container">
+                <img src="${player.image}" alt="" />
+              </div>
+              <div class="player-info">
+                <p>${player.name}</p>
+                <p>${player.nationality}</p>
+                <p>${player.birthday}</p>
+                <p>${player.lastGame}</p>
+                <p>${player.status}</p>
+                <p>${teamsString}</p>
+              </div>
           </figure> 
               `;
     }
