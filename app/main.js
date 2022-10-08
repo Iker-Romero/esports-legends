@@ -1,16 +1,15 @@
-import './style.css';
-import { insertNavbar } from './components/insertNavbar/insertNavbar';
-import { insertPlayers } from './components/insertPlayers/insertPlayers';
-import { searchInput } from './components/searchInput/searchInput';
-import { insertInputPlayers } from './components/insertInputPlayers/insertInputPlayers';
+import "./style.css";
+import { insertNavbar } from "./components/insertNavbar/insertNavbar";
+import { getPlayers } from "./components/getPlayers/getPlayers";
+import { insertPlayers } from "./components/insertPlayers/insertPlayers";
+import { searchInput } from "./components/searchInput/searchInput";
 // import { insertFooter } from './components/insertFooter/insertFooter';
 
 const triggerComponents = () => {
-    insertNavbar('ESPORTS LEGENDS');
-    insertPlayers();
-    // insertFooter();
-    searchInput();
-    insertInputPlayers();
-}
+  insertNavbar("ESPORTS LEGENDS");
+  insertPlayers(getPlayers("http://localhost:3000/players"));
+  searchInput("http://localhost:3000/players");
+//   insertFooter();
+};
 
 triggerComponents();

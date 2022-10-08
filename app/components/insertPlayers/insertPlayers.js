@@ -1,13 +1,13 @@
 import { getPlayers } from "../getPlayers/getPlayers";
 
-const div = document.createElement("div");
-div.classList.add("players-container");
-
-export const insertPlayers = async () => {
+export const insertPlayers = async (array) => {
   try {
-    const players = await getPlayers("http://localhost:3000/players");
+    const div = document.createElement("div");
+    div.classList.add("players-container");
+    const players = await array;
     for (const player of players) {
       let teamsString = "Teams: ";
+      console.log(player.teams)
       for (const team of player.teams) {
         teamsString += `➡️ ${team}`;
       }
