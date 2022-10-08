@@ -2,12 +2,7 @@ import { getPlayers } from "../getPlayers/getPlayers";
 
 export const searchInput = () => {
 
-    document.querySelector("nav").insertAdjacentHTML(
-      "afterend",
-      `
-        <input type="text" class="searchInput" id="searchInput" />
-        `
-    );
+    
 };
 
 // export const searchInput = async () => {

@@ -2,11 +2,15 @@ import { searchInput } from "../searchInput/searchInput";
 import { getPlayers } from "../getPlayers/getPlayers";
 
 export const insertInputPlayers = () => {
+  document.querySelector("nav").insertAdjacentHTML(
+    "afterend",
+    `
+      <input type="text" class="searchInput" id="searchInput" />
+      `
+  );
   const input = document.querySelector("#searchInput")
   input.addEventListener("input", async () => {
-      console.log(input.value)
       const playersArray = await getPlayers("http://localhost:3000/players");
-      console.log(playersArray)
       const playersMatch = playersArray.filter((player) => {
         return player.nickname.toLowerCase().includes(input.value.toLowerCase());
       });
