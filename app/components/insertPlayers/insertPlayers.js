@@ -1,5 +1,3 @@
-import { getPlayers } from "../getPlayers/getPlayers";
-
 export const insertPlayers = async (array) => {
   try {
     const div = document.createElement("div");
@@ -7,7 +5,6 @@ export const insertPlayers = async (array) => {
     const players = await array;
     for (const player of players) {
       let teamsString = "Teams: ";
-      console.log(player.teams)
       for (const team of player.teams) {
         teamsString += `➡️ ${team}`;
       }

@@ -1,48 +1,49 @@
 {
   "players": [
+    
     {
       "id": 1,
-      "nickname": "Mixwell",
-      "name": "Óscar Cañellas Colocho",
-      "nationality": "España (🇪🇸)",
-      "birthday": "10-10-1995",
-      "image": "https://prosettings.net/wp-content/uploads/mixwell.png",
-      "lastGame": "Valorant",
-      "status": "Inactive",
-      "teams": ["G2"]
-    },
-    {
-      "id": 2,
       "nickname": "pAura",
       "name": "Melih Karaduran",
       "nationality": "Turkey (🇹🇷)",
-      "birthday": "27-10-1997",
+      "birthday": "1997-10-27",
       "image": "https://revivalpedia.s3.ap-southeast-1.amazonaws.com/images/players/1642240609-pAura.png",
       "lastGame": "Valorant",
       "status": "Active",
       "teams": ["Team Heretics", "SuperMassive Blaze", "BBL Esports", "Team Heretics"]
     },
     {
-      "id": 3,
-      "nickname": "Nukkye",
-      "name": "Žygimantas Chmieliauskas",
-      "nationality": "Lithuania (🇱🇹)",
-      "birthday": "5-11-1997",
-      "image": "players/nukkyeHD.jpg",
+      "id": 2,
+      "nickname": "Mixwell",
+      "name": "Óscar Cañellas Colocho",
+      "nationality": "España (🇪🇸)",
+      "birthday": "1995-10-10",
+      "image": "https://prosettings.net/wp-content/uploads/mixwell.png",
       "lastGame": "Valorant",
       "status": "Inactive",
-      "teams": ["Team Heretics", "G2"]
+      "teams": ["G2"]
     },
     {
-      "id": 4,
+      "id": 3,
       "nickname": "keznitdeuS",
       "name": "Angelo Mori",
       "nationality": "Chile (🇨🇱)",
-      "birthday": "14-08-2001",
+      "birthday": "2001-08-14",
       "image": "https://www.kruesports.gg/assets/img/Keznit-min.png?1",
       "lastGame": "Valorant",
       "status": "Active",
       "teams": ["Australs", "Wygers Argentina", "KRU"]
+    },
+    {
+      "id": 4,
+      "nickname": "Nukkye",
+      "name": "Žygimantas Chmieliauskas",
+      "nationality": "Lithuania (🇱🇹)",
+      "birthday": "1997-11-05",
+      "image": "players/nukkyeHD.jpg",
+      "lastGame": "Valorant",
+      "status": "Inactive",
+      "teams": ["Team Heretics", "G2"]
     }
   ]
 }
