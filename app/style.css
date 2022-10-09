@@ -223,7 +223,8 @@ input, select, option {
 }
 
 .player figcaption {
-  color: var(--primary-highligth)
+  color: var(--primary-highligth);
+  font-weight: bold;
 }
 
 .player-image-container {
