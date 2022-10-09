@@ -6,7 +6,7 @@ export const insertPlayers = async (array) => {
     for (const player of players) {
       let teamsString = "Teams: ";
       for (const team of player.teams) {
-        teamsString += `➡️ ${team}`;
+        teamsString += ` ➡️ ${team}`;
       }
       div.innerHTML += `
           <figure class="player">
