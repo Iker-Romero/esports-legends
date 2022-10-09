@@ -15,55 +15,7 @@ const contactInfo = [
       },
     },
   },
-  {
-    name: "afdafasgsag",
-    socialNetworks: {
-      github: {
-        icon: "public/GitHub-Mark/PNG/GitHub-Mark-32px.png",
-        link: "https://github.com/Iker-Romero",
-      },
-      linkedin: {
-        icon: "public/174857.png",
-        link: "https://www.linkedin.com/in/iker-romero-645b70251/",
-      },
-    },
-  },
 ];
-
-// console.log(contactInfo[0].socialNetworks.github.icon);
-
-// const insertContactsList = () => {
-//   let icon;
-//   let link;
-//   let listItems;
-//   for (const person of contactInfo) {
-//     for (const socialNetwork in person.socialNetworks) {
-//       console.log(socialNetwork);
-//       for (const key in contactInfo[contactInfo.indexOf(person)].socialNetworks[socialNetwork]) {
-//         // console.log(key);
-//         console.log(socialNetwork[key])
-//         if (key === "icon") {
-//           icon = socialNetwork.key;
-//           //   console.log(key)
-//         }
-//         if (key === "link") {
-//           link = socialNetwork.key;
-//         }
-//       }
-//     }
-//     listItems += `
-//           <li>
-//             <a href="${link}" target="_blank">
-//               <img src="${icon}" alt="" />
-//             </a>
-//           </li>
-//           `;
-//     console.log(listItems);
-//   }
-//   return listItems;
-// };
-
-// console.log(insertContactsList());
 
 export const insertFooter = async () => {
   try {
@@ -74,7 +26,7 @@ export const insertFooter = async () => {
       <ul class="contact-icons">
         <li>
           <a href="${contactInfo[0].socialNetworks.github.link}" target="_blank">
-          <img src="${contactInfo[0].socialNetworks.github.icon}" alt="">
+            <img src="${contactInfo[0].socialNetworks.github.icon}" alt="">
           </a>
         </li>
       </ul>

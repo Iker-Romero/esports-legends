@@ -128,6 +128,15 @@ table {
   border-spacing: 0;
 }
 
+/* COLOR PALETTE */
+
+:root {
+  --background-color: #202639;
+  --primary-color: #e8e8e7;
+  --secondary-color: #314893;
+  --tertiary-color: #a3c3fb;
+}
+
 /* GLOBAL */
 
 * {
@@ -180,4 +189,12 @@ nav {
 
 .player-info {
   width: 100%;
+}
+
+footer {
+  display: flex;
+}
+
+footer > ul {
+  display: inline;
 }
