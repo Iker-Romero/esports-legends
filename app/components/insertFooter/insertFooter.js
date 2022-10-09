@@ -72,7 +72,11 @@ export const insertFooter = async () => {
     <footer>
       <p class="copyright">© 2022 | Developed by: ${contactInfo[0].name}.</p>
       <ul class="contact-icons">
-
+        <li>
+          <a href="${contactInfo[0].socialNetworks.github.link}" target="_blank">
+          <img src="${contactInfo[0].socialNetworks.github.icon}" alt="">
+          </a>
+        </li>
       </ul>
     </footer>
     `;
