@@ -44,6 +44,50 @@
       "lastGame": "Valorant",
       "status": "Inactive",
       "teams": ["Team Heretics", "G2"]
+    },
+    {
+      "id": 5,
+      "nickname": "TenZ",
+      "name": "Tyson Ngo",
+      "nationality": "Canada (🇨🇦)",
+      "birthday": "2001-05-05",
+      "image": "players/tenz.png",
+      "lastGame": "Valorant",
+      "status": "Active",
+      "teams": ["Cloud9 Blue", "Sentinels"]
+    },
+    {
+      "id": 6,
+      "nickname": "Kiles",
+      "name": "Владислав Швець",
+      "nationality": "Ukraine (🇱🇹) & España (🇪🇸)",
+      "birthday": "1997-26-08",
+      "image": "players/kiles.png",
+      "lastGame": "Valorant",
+      "status": "Inactive",
+      "teams": ["Movistar Riders", "RYEG", "Acend", "Giants"]
+    },
+    {
+      "id": 7,
+      "nickname": "Derke",
+      "name": "Nikita Sirmitev",
+      "nationality": "Finland (🇫🇮) & Russia (🇷🇺)",
+      "birthday": "2003-02-06",
+      "image": "players/derke.png",
+      "lastGame": "Valorant",
+      "status": "Active",
+      "teams": ["CrowCrowd", "Fnatic"]
+    },
+    {
+      "id": 8,
+      "nickname": "ScreaM",
+      "name": "Adil Benrlitom",
+      "nationality": "Belgium (🇱🇹) & Morocco",
+      "birthday": "1994-07-02",
+      "image": "players/scream.png",
+      "lastGame": "Valorant",
+      "status": "Active",
+      "teams": ["Team Liquid"]
     }
   ]
 }
