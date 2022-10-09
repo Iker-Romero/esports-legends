@@ -1,6 +1,5 @@
 {
   "players": [
-    
     {
       "id": 1,
       "nickname": "pAura",
@@ -10,7 +9,12 @@
       "image": "https://revivalpedia.s3.ap-southeast-1.amazonaws.com/images/players/1642240609-pAura.png",
       "lastGame": "Valorant",
       "status": "Active",
-      "teams": ["Team Heretics", "SuperMassive Blaze", "BBL Esports", "Team Heretics"]
+      "teams": [
+        "Team Heretics",
+        "SuperMassive Blaze",
+        "BBL Esports",
+        "Team Heretics"
+      ]
     },
     {
       "id": 2,
@@ -82,7 +86,7 @@
       "id": 8,
       "nickname": "ScreaM",
       "name": "Adil Benrlitom",
-      "nationality": "Belgium (🇱🇹) & Morocco",
+      "nationality": "Belgium (🇱🇹) & Morocco (🇲🇦)",
       "birthday": "1994-07-02",
       "image": "players/scream.png",
       "lastGame": "Valorant",

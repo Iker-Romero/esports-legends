@@ -6,7 +6,7 @@ const contactInfo = [
     name: "Iker Romero Caramés",
     socialNetworks: {
       github: {
-        icon: "public/github-light.png",
+        icon: "/github-light.png",
         link: "https://github.com/Iker-Romero",
       },
       linkedin: {
@@ -20,7 +20,8 @@ const contactInfo = [
 export const insertFooter = async () => {
   try {
     await insertPlayers(getPlayers("http://localhost:3000/players"));
-    document.body.innerHTML += `
+    document.body.innerHTML += 
+    `
     <footer>
       <p class="copyright">© 2022 | Developed by: ${contactInfo[0].name}.</p>
       <ul class="contact-icons">
@@ -31,7 +32,7 @@ export const insertFooter = async () => {
         </li>
       </ul>
     </footer>
-    `;
+    `
   } catch (error) {
     console.log(error);
   }
