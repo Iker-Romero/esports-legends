@@ -6,7 +6,7 @@ const contactInfo = [
     name: "Iker Romero Caramés",
     socialNetworks: {
       github: {
-        icon: "public/GitHub-Mark/PNG/GitHub-Mark-32px.png",
+        icon: "public/github-light.png",
         link: "https://github.com/Iker-Romero",
       },
       linkedin: {

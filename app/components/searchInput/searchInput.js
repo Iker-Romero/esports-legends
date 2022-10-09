@@ -3,9 +3,10 @@ import { insertPlayers } from "../insertPlayers/insertPlayers";
 import { searchFilter } from "../searchFilter/searchFilter";
 
 export const searchInput = (url) => {
-  document.querySelector("nav").insertAdjacentHTML(
+  document.querySelector("header").insertAdjacentHTML(
     "afterend",
     ` <div class="search-container">
+        <label for="searchInput">Buscar jugador: </label>
         <input type="text" class="searchInput" id="searchInput" />
         ${searchFilter()}
         </div>

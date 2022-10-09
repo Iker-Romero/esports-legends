@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -131,24 +133,68 @@ table {
 /* COLOR PALETTE */
 
 :root {
-  --background-color: #202639;
-  --primary-color: #e8e8e7;
-  --secondary-color: #314893;
-  --tertiary-color: #a3c3fb;
+  --background-color: #000000;
+  --secondary-background: #222344;
+  --primary-color: white;
+  --primary-highligth: #f6de6d;
+  --secondary-highlight: #9e1e35;
+  font-family: "Oswald", sans-serif;
 }
 
 /* GLOBAL */
 
 * {
   box-sizing: border-box;
+  color: var(--primary-color);
+  font-family: "Oswald", sans-serif;
 }
 
 /* NAVBAR */
 
 nav {
+  position: fixed;
+  top: 0;
+  z-index: 1 ;
+  background-color: var(--secondary-background);
   border: 2px solid black;
   height: 4rem;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > a {
+  color: var(--primary-highligth);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+input,
+select,
+option,
+textarea {
+  color: var(--background-color);
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+input, select, option {
+  padding: 0 0.5rem;
+}
+
+/* MAIN */
+
+.search-container {
+  margin-top: 5rem;
+  height: 3rem;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -162,7 +208,8 @@ nav {
 }
 
 .player {
-  border: 2px solid black;
+  background-color: var(--secondary-background);
+  border-radius: 1rem;
   width: 18rem;
   height: 32rem;
   padding: 1rem;
@@ -173,6 +220,10 @@ nav {
   justify-content: space-between;
   object-fit: cover;
   overflow: hidden;
+}
+
+.player figcaption {
+  color: var(--primary-highligth)
 }
 
 .player-image-container {
@@ -189,12 +240,30 @@ nav {
 
 .player-info {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+  line-height: 1.5rem;
 }
 
+/* FOOTER */
+
 footer {
+  height: 4rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > p {
+  color: var(--primary-highligth);
 }
 
 footer > ul {
   display: inline;
+}
+
+footer img {
+  height: 4rem;
+  z-index: 1;
 }
