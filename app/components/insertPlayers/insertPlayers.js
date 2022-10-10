@@ -25,7 +25,7 @@ export const insertPlayers = async (array) => {
           </figure> 
               `;
     }
-    document.body.appendChild(div);
+    document.querySelector(".search-container").insertAdjacentElement("afterend", div)
   } catch (error) {
     console.log(error);
   }

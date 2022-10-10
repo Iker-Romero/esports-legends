@@ -20,8 +20,7 @@ const contactInfo = [
 export const insertFooter = async () => {
   try {
     await insertPlayers(getPlayers("http://localhost:3000/players"));
-    document.body.innerHTML += 
-    `
+    const footer = `
     <footer>
       <p class="copyright">© 2022 | Developed by: ${contactInfo[0].name}.</p>
       <ul class="contact-icons">
@@ -33,6 +32,7 @@ export const insertFooter = async () => {
       </ul>
     </footer>
     `
+    document.body.insertAdjacentHTML("beforeend", footer)
   } catch (error) {
     console.log(error);
   }
